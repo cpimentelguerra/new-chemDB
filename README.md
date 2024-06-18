@@ -111,7 +111,7 @@ body {margin:0;font-family:Arial}
 </head>
 <body>
 
-<div class="topnav">
+<div class="topnav" id="myTopnav">
   <a class="active" href="https://cpimentelguerra.com/new-chemDB/">Home</a>
   <a href="https://cpimentelguerra.com/new-chemDB/zotero">Zotero library</a>
   <a href="https://cpimentelguerra.com/new-chemDB/howtouse">How to use</a>
