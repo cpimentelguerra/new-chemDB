@@ -42,7 +42,6 @@ body {
   <a href="https://cpimentelguerra.com/new-chemDB/about">About us</a>
   <a href="https://cpimentelguerra.com/new-chemDB/contact">Contact</a>
   <a href="https://cpimentelguerra.com/new-chemDB/updates">Updates</a>
-  <a href="https://cpimentelguerra.com/new-chemDB/feed.xml">RSS</a>
 </div>
 
 </body>
