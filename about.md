@@ -40,7 +40,7 @@ body {
   <a href="https://cpimentelguerra.com/new-chemDB/howtouse">How to use</a>
   <a href="https://cpimentelguerra.com/new-chemDB/howtocite">How to cite</a>
   <a class="active" href="https://cpimentelguerra.com/new-chemDB/about">About us</a>
-  <a href="https://cpimentelguerra.com/new-chemDB/contact">Contact</a>
+  <a href="https://cpimentelguerra.com/#contact">Contact</a>
   <a href="https://cpimentelguerra.com/new-chemDB/updates">Updates</a>
 </div>
 
