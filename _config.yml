@@ -1,5 +1,6 @@
 title: Chemobrionics Database
-baseURL: https://cpimentelguerra.com/new-chemDB/zotero
+url: "https://cpimentelguerra.com/new-chemDB/"
+baseURL: "/zotero"
 languageCode: en-us
 
 plugins:
