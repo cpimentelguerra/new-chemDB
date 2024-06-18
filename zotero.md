@@ -1,15 +1,4 @@
----
-title: "Zotero library group"
-subtitle: ""
-summary: ""
-authors: []
-tags: []
-categories: []
-date: 2024-06-18T09:45:57+01:00
-lastmod: 2024-06-18T09:45:57+01:00
-featured: false
-draft: false
----
+# Zotero library group
 
 All references used to prepare this database can be found in the following Zotero libray group:
 
