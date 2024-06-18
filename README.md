@@ -35,10 +35,14 @@ body {
 <body>
 
 <div class="topnav">
-  <a class="active" href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
+  <a class="active" href="https://cpimentelguerra.com/new-chemDB/">Home</a>
+  <a href="https://cpimentelguerra.com/new-chemDB/zotero">Zotero library</a>
+  <a href="https://cpimentelguerra.com/new-chemDB/howtouse">How to use</a>
+  <a href="https://cpimentelguerra.com/new-chemDB/howtocite">How to cite</a>
+  <a href="https://cpimentelguerra.com/new-chemDB/about">About us</a>
+  <a href="https://cpimentelguerra.com/new-chemDB/contact">Contact</a>
+  <a href="https://cpimentelguerra.com/new-chemDB/updates">Updates</a>
+  <a href="https://cpimentelguerra.com/new-chemDB/feed.xml">RSS</a>
 </div>
 
 </body>
