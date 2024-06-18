@@ -148,4 +148,4 @@ If you find this database useful and you use it in your work, please [cite](/che
 
 In addition, if you miss your work in the database, please let us know to update it (cpimentelguerra@geo.ucm.es).
 
-<iframe style="border-style: none;" src="https://cpimentelguerra.com/chemobrionics/database/database.html" width="100%" height="600" ></iframe>
+<iframe style="border-style: none;" src="https://cpimentelguerra.com/chemobrionics/database/database.html" width="100%" height="100%" ></iframe>
