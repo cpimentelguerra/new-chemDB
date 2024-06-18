@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -42,13 +41,8 @@ body {
   <a href="#about">About</a>
 </div>
 
-<div style="padding-left:16px">
-  <h2>Top Navigation Example</h2>
-  <p>Some content..</p>
-</div>
-
 </body>
 </html>
 
-# new-chemDB
+
 This is a test repository for a new version of the chemobrionics database
