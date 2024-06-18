@@ -172,5 +172,6 @@ In addition, if you miss your work in the database, please let us know to update
           frame.contentWindow.document.body.scrollWidth+'px'; 
               
         } 
-   </script> 
+    </script> 
+  </body>  
 </html>
