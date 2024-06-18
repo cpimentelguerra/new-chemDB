@@ -150,7 +150,7 @@ In addition, if you miss your work in the database, please let us know to update
 
 <html>
   <body> 
-    <iframe style="border-style: none;" src="https://cpimentelguerra.com/chemobrionics/database/database.html" width="100%" height="600" ></iframe>
+    <iframe style="border-style: none;" src="https://cpimentelguerra.com/chemobrionics/database/database.html" width="100%" height="600" id="Iframe"></iframe>
 
     <script> 
         // Selecting the iframe element 
