@@ -5,6 +5,6 @@ plugins:
 title: Chemobrionics Database
 languageCode: en-us
 
-url: https://cpimentelguerra.com/new-chemDB/
+url: "https://cpimentelguerra.com/new-chemDB/"
 
 permalink: /:year/:month/:day/:title:output_ext
