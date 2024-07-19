@@ -1,9 +1,8 @@
 ---
-layout: default
 title: Updates
 ---
 
-# Updates
+## Updates
 
 <ul class="posts">
   {% for post in site.categories.posts %}
