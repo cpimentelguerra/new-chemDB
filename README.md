@@ -4,31 +4,17 @@
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="alternate" type="application/rss+xml" title="Chemobrionics Database" href="https://cpimentelguerra.com/new-chemDB/feed.xml" />
-  
-<body>
-<div class="topnav" id="myTopnav">
-  <a class="active" href="https://cpimentelguerra.com/new-chemDB/">Home</a>
-  <a href="https://cpimentelguerra.com/new-chemDB/zotero">Zotero library</a>
-  <a href="https://cpimentelguerra.com/new-chemDB/howtouse">How to use</a>
-  <a href="https://cpimentelguerra.com/new-chemDB/howtocite">How to cite</a>
-  <a href="https://cpimentelguerra.com/new-chemDB/about">About us</a>
-  <a href="https://cpimentelguerra.com/#contact">Contact</a>
-  <a href="https://cpimentelguerra.com/new-chemDB/updates">Updates</a>
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
 
+<div id="menu-placeholder"></div>
 <script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
+  fetch('menu.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('menu-placeholder').innerHTML = data;
+    });
 </script>
 
-</body>
+<body>
 
 
 <br>
@@ -42,6 +28,8 @@ If you find this database useful and you use it in your work, please [cite](/new
 * Pimentel, Carlos, Zheng, Mingchuan, Sainz-Díaz, C. Ignacio, & Cartwright, Julyan H. E. (2022). Chemobrionics Database (0.0.19) [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.10911844](https://doi.org/10.5281/zenodo.10911844)
 
 In addition, if you miss your work in the database, please let us know to update it (cpimentelguerra@geo.ucm.es).
+
+</body>
 
 <html>
   <body> 
