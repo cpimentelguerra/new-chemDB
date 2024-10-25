@@ -11,6 +11,18 @@
 </div>
 
 <script>
+  // Selecciona todos los enlaces del menú
+  const links = document.querySelectorAll(".menu-link");
+
+  // Itera sobre los enlaces para verificar si la URL coincide con la actual
+  links.forEach(link => {
+    if (link.href === window.location.href) {
+      link.classList.add("active");  // Agrega la clase 'active' al enlace actual
+    }
+  });
+</script>
+
+<script>
   function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
