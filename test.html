@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de Menú</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+
+    <!-- Aquí va el menú -->
+    <div class="topnav" id="myTopnav">
+      <a href="https://cpimentelguerra.com/new-chemDB/" class="menu-link">Home</a>
+      <a href="https://cpimentelguerra.com/new-chemDB/zotero" class="menu-link">Zotero library</a>
+      <a href="https://cpimentelguerra.com/new-chemDB/howtouse" class="menu-link">How to use</a>
+      <a href="https://cpimentelguerra.com/new-chemDB/howtocite" class="menu-link">How to cite</a>
+      <a href="https://cpimentelguerra.com/new-chemDB/about" class="menu-link">About us</a>
+      <a href="https://cpimentelguerra.com/#contact" class="menu-link">Contact</a>
+      <a href="https://cpimentelguerra.com/new-chemDB/updates" class="menu-link">Updates</a>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        const currentURL = window.location.href;
+        const links = document.querySelectorAll('.menu-link');
+
+        links.forEach(link => {
+          if (link.href === currentURL) {
+            link.classList.add('active');
+          }
+        });
+      });
+    </script>
+
+    <style>
+      /* Estilo básico */
+      .topnav {
+        background-color: #333;
+        overflow: hidden;
+      }
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      .topnav a.active {
+        background-color: royalblue; /* Color de fondo cuando está activo */
+        color: white; /* Color del texto cuando está activo */
+      }
+    </style>
+
+</body>
+</html>
