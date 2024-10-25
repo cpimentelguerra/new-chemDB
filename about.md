@@ -4,16 +4,29 @@
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="alternate" type="application/rss+xml" title="Chemobrionics Database" href="https://cpimentelguerra.com/new-chemDB/feed.xml" />
+  
+<div class="topnav" id="myTopnav">
+        <a href="index.html" class="menu-link">Home</a>
+        <a href="zotero.html" class="menu-link">Zotero library</a>
+        <a href="howtouse.html" class="menu-link">How to use</a>
+        <a href="howtocite.html" class="menu-link">How to cite</a>
+        <a href="about.html" class="menu-link">About us</a>
+        <a href="#contact" class="menu-link">Contact</a>
+        <a href="updates.html" class="menu-link">Updates</a>
+    </div>
 
-<div id="menu-placeholder"></div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const currentURL = window.location.href;
+            const links = document.querySelectorAll('.menu-link');
 
-<script>
-  fetch('menu.html')
-    .then(response => response.text())
-    .then(data => {
-      document.getElementById('menu-placeholder').innerHTML = data;
-    });
-</script>
+            links.forEach(link => {
+                if (link.href === currentURL) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
 </head>
 
 <body>
