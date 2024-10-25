@@ -33,7 +33,7 @@ function myFunction() {
 
 <br>
 
-The Chemobrionics Database is a database which aims to curate all the scientific works performed about chemobrionics. In this database, previously reported chemical gardens are classified using the anions and cations used, and the setup in which the chemical garden growth were promoted. In all cases, the last column is devoted to provide the references where such experiments were described. All these references are also curated in a [Zotero group library](/new-chemDB/zotero)
+<p>The Chemobrionics Database is a database which aims to curate all the scientific works performed about chemobrionics. In this database, previously reported chemical gardens are classified using the anions and cations used, and the setup in which the chemical garden growth were promoted. In all cases, the last column is devoted to provide the references where such experiments were described. All these references are also curated in a <a href="/new-chemDB/zotero">Zotero group library</a></p>
 
 If you find this database useful and you use it in your work, please [cite](/new-chemDB/howtocite) it as follows:
 
