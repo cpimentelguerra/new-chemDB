@@ -11,6 +11,17 @@
 </div>
 
 <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
+
+<script>
   // Selecciona todos los enlaces del menú
   const links = document.querySelectorAll(".menu-link");
 
@@ -20,15 +31,4 @@
       link.classList.add("active");  // Agrega la clase 'active' al enlace actual
     }
   });
-</script>
-
-<script>
-  function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
 </script>
