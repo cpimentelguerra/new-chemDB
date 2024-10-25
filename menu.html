@@ -1,16 +1,17 @@
 <!-- menu.html -->
 <div class="topnav" id="myTopnav">
-  <a href="https://cpimentelguerra.com/new-chemDB/" id="home">Home</a>
-  <a href="https://cpimentelguerra.com/new-chemDB/zotero" id="zotero">Zotero library</a>
-  <a href="https://cpimentelguerra.com/new-chemDB/howtouse" id="howtouse">How to use</a>
-  <a href="https://cpimentelguerra.com/new-chemDB/howtocite" id="howtocite">How to cite</a>
-  <a href="https://cpimentelguerra.com/new-chemDB/about" id="about">About us</a>
-  <a href="https://cpimentelguerra.com/#contact" id="contact">Contact</a>
-  <a href="https://cpimentelguerra.com/new-chemDB/updates" id="updates">Updates</a>
+  <a href="https://cpimentelguerra.com/new-chemDB/" class="menu-link">Home</a>
+  <a href="https://cpimentelguerra.com/new-chemDB/zotero" class="menu-link">Zotero library</a>
+  <a href="https://cpimentelguerra.com/new-chemDB/howtouse" class="menu-link">How to use</a>
+  <a href="https://cpimentelguerra.com/new-chemDB/howtocite" class="menu-link">How to cite</a>
+  <a href="https://cpimentelguerra.com/new-chemDB/about" class="menu-link">About us</a>
+  <a href="https://cpimentelguerra.com/#contact" class="menu-link">Contact</a>
+  <a href="https://cpimentelguerra.com/new-chemDB/updates" class="menu-link">Updates</a>
   <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
 
 <script>
+  // Función para manejar el menú responsive
   function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
@@ -19,30 +20,20 @@
       x.className = "topnav";
     }
   }
-</script>
 
-<script>
-// Código para resaltar el enlace activo
+  // Resaltar el enlace activo
   document.addEventListener("DOMContentLoaded", function() {
-    // URL actual sin parámetros ni fragmentos
-    const currentURL = window.location.origin + window.location.pathname;
+    const currentURL = window.location.href; // Obtener la URL actual
 
-    // Selección del enlace según la URL
-    if (currentURL.includes("/new-chemDB/zotero")) {
-      document.getElementById("zotero").classList.add("active");
-    } else if (currentURL.includes("/new-chemDB/howtouse")) {
-      document.getElementById("howtouse").classList.add("active");
-    } else if (currentURL.includes("/new-chemDB/howtocite")) {
-      document.getElementById("howtocite").classList.add("active");
-    } else if (currentURL.includes("/new-chemDB/about")) {
-      document.getElementById("about").classList.add("active");
-    } else if (currentURL.includes("/#contact")) {
-      document.getElementById("contact").classList.add("active");
-    } else if (currentURL.includes("/new-chemDB/updates")) {
-      document.getElementById("updates").classList.add("active");
-    } else {
-      document.getElementById("home").classList.add("active");
-    }
+    // Selecciona todos los enlaces del menú
+    const links = document.querySelectorAll(".menu-link");
+
+    // Itera sobre los enlaces y agrega la clase 'active' al que coincide con la URL actual
+    links.forEach(link => {
+      if (link.href === currentURL) {
+        link.classList.add("active"); // Agregar clase 'active' al enlace actual
+      }
+    });
   });
 </script>
 
@@ -53,3 +44,4 @@
     color: white;
   }
 </style>
+
