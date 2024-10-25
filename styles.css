@@ -115,3 +115,43 @@
     text-align: left;
   }
 }
+
+/* Estilo para párrafos */
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Estilo para listas sin orden (ul) */
+ul {
+  list-style-type: disc;  /* Tipo de viñeta */
+  padding-left: 20px;     /* Sangría para separar viñetas del borde */
+  margin-bottom: 20px;
+}
+
+/* Estilo para listas ordenadas (ol) */
+ol {
+  list-style-type: decimal;  /* Números en lugar de viñetas */
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+/* Estilo para cada elemento de lista (li) */
+li {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Ejemplo de estilo para enlaces dentro de listas o párrafos */
+p a, li a {
+  color: royalblue;
+  text-decoration: none;
+}
+
+p a:hover, li a:hover {
+  text-decoration: underline;
+}
