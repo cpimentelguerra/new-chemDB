@@ -1,0 +1,22 @@
+<!-- menu.html -->
+<div class="topnav" id="myTopnav">
+  <a href="https://cpimentelguerra.com/new-chemDB/">Home</a>
+  <a href="https://cpimentelguerra.com/new-chemDB/zotero">Zotero library</a>
+  <a href="https://cpimentelguerra.com/new-chemDB/howtouse">How to use</a>
+  <a href="https://cpimentelguerra.com/new-chemDB/howtocite">How to cite</a>
+  <a href="https://cpimentelguerra.com/new-chemDB/about">About us</a>
+  <a href="https://cpimentelguerra.com/#contact">Contact</a>
+  <a href="https://cpimentelguerra.com/new-chemDB/updates">Updates</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
