@@ -4,7 +4,8 @@
 <link rel="stylesheet" href="_layouts/styles.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="alternate" type="application/rss+xml" title="Chemobrionics Database" href="https://cpimentelguerra.com/new-chemDB/feed.xml" />
-
+  
+<body>
 <div class="topnav" id="myTopnav">
   <a class="active" href="https://cpimentelguerra.com/new-chemDB/">Home</a>
   <a href="https://cpimentelguerra.com/new-chemDB/zotero">Zotero library</a>
