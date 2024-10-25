@@ -6,6 +6,7 @@
 <link rel="alternate" type="application/rss+xml" title="Chemobrionics Database" href="https://cpimentelguerra.com/new-chemDB/feed.xml" />
 
 <div id="menu-placeholder"></div>
+
 <script>
   fetch('menu.html')
     .then(response => response.text())
