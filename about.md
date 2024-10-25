@@ -6,27 +6,43 @@
 <link rel="alternate" type="application/rss+xml" title="Chemobrionics Database" href="https://cpimentelguerra.com/new-chemDB/feed.xml" />
   
 <div class="topnav" id="myTopnav">
-        <a href="index.html" class="menu-link">Home</a>
-        <a href="zotero.html" class="menu-link">Zotero library</a>
-        <a href="howtouse.html" class="menu-link">How to use</a>
-        <a href="howtocite.html" class="menu-link">How to cite</a>
-        <a href="about.html" class="menu-link">About us</a>
-        <a href="#contact" class="menu-link">Contact</a>
-        <a href="updates.html" class="menu-link">Updates</a>
-    </div>
+  <a href="https://cpimentelguerra.com/new-chemDB/" class="menu-link">Home</a>
+  <a href="https://cpimentelguerra.com/new-chemDB/zotero" class="menu-link">Zotero library</a>
+  <a href="https://cpimentelguerra.com/new-chemDB/howtouse" class="menu-link">How to use</a>
+  <a href="https://cpimentelguerra.com/new-chemDB/howtocite" class="menu-link">How to cite</a>
+  <a href="https://cpimentelguerra.com/new-chemDB/about" class="menu-link">About us</a>
+  <a href="https://cpimentelguerra.com/#contact" class="menu-link">Contact</a>
+  <a href="https://cpimentelguerra.com/new-chemDB/updates" class="menu-link">Updates</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const currentURL = window.location.href;
-            const links = document.querySelectorAll('.menu-link');
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
 
-            links.forEach(link => {
-                if (link.href === currentURL) {
-                    link.classList.add('active');
-                }
-            });
-        });
-    </script>
+  // Esperar a que el DOM esté completamente cargado
+  document.addEventListener("DOMContentLoaded", function() {
+    // Obtener la URL actual
+    const currentURL = window.location.href;
+
+    // Seleccionar todos los enlaces del menú
+    const links = document.querySelectorAll('.menu-link');
+
+    // Comparar la URL de cada enlace con la URL actual
+    links.forEach(link => {
+      if (link.href === currentURL) {
+        link.classList.add('active'); // Agregar la clase 'active' al enlace actual
+      }
+    });
+  });
+</script>
+
 </head>
 
 <body>
