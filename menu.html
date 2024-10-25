@@ -11,7 +11,6 @@
 </div>
 
 <script>
-  // Función para manejar el menú responsive
   function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
@@ -21,27 +20,20 @@
     }
   }
 
-  // Resaltar el enlace activo
+  // Esperar a que el DOM esté completamente cargado
   document.addEventListener("DOMContentLoaded", function() {
-    const currentURL = window.location.href; // Obtener la URL actual
+    // Obtener la URL actual
+    const currentURL = window.location.href;
 
-    // Selecciona todos los enlaces del menú
-    const links = document.querySelectorAll(".menu-link");
+    // Seleccionar todos los enlaces del menú
+    const links = document.querySelectorAll('.menu-link');
 
-    // Itera sobre los enlaces y agrega la clase 'active' al que coincide con la URL actual
+    // Comparar la URL de cada enlace con la URL actual
     links.forEach(link => {
       if (link.href === currentURL) {
-        link.classList.add("active"); // Agregar clase 'active' al enlace actual
+        link.classList.add('active'); // Agregar la clase 'active' al enlace actual
       }
     });
   });
 </script>
-
-<style>
-  /* Estilo para el enlace activo */
-  .topnav a.active {
-    background-color: royalblue;
-    color: white;
-  }
-</style>
 
