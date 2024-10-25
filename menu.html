@@ -22,13 +22,18 @@
 </script>
 
 <script>
-  // Selecciona todos los enlaces del menú
-  const links = document.querySelectorAll(".menu-link");
+  document.addEventListener("DOMContentLoaded", function() {
+    // Selecciona todos los enlaces del menú
+    const links = document.querySelectorAll(".menu-link");
 
-  // Itera sobre los enlaces para verificar si la URL coincide con la actual
-  links.forEach(link => {
-    if (link.href === window.location.href) {
-      link.classList.add("active");  // Agrega la clase 'active' al enlace actual
-    }
+    // Obtén la URL actual sin parámetros de consulta o fragmentos
+    const currentURL = window.location.origin + window.location.pathname;
+
+    // Itera sobre los enlaces y aplica la clase `active` si la URL coincide
+    links.forEach(link => {
+      if (link.href === currentURL) {
+        link.classList.add("active");
+      }
+    });
   });
 </script>
